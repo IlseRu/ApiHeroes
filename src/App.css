@@ -1,0 +1,37 @@
+.App {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 100vh;
+  gap: 2rem;
+  background-color: #eee;
+  color: #333;
+}
+.users__box{
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+.user__card{
+  background: #333;
+  color: #fff;
+  border-radius: 0.3rem;
+  padding: 1rem;
+}
+
+button {
+  color: #fff;
+  background-color: #03045e;
+  border: none;
+  padding: 1rem 2rem;
+  transition: 0.2s background-color ease-out;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+button:hover {
+  cursor: pointer;
+  background-color: #023e8a;
+}
